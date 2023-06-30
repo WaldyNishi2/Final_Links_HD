@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/tmabackup')
             ],
             [
-                InlineKeyboardButton('⚡ Request group ⚡', url=f"https://t.me/tmadiscuss"),
+                InlineKeyboardButton('⚡ Request group ⚡', url=f"https://t.me/tmarequest"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -49,7 +49,7 @@ async def start(client, message):
             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ],[
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmarequest')
             ],[
             InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TmaSupportBot')
             
