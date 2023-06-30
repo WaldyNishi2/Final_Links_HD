@@ -435,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚚ How to use our bot ⚚', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ], [
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmarequest')
             ],[
             InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TmaSupportBot')
             
