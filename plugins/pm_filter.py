@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/how_to_use_tmafilesbot/9')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/How_To_Download_Waldy')
         ]
     )
 
@@ -432,12 +432,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ How to use our bot ⚚', url='https://telegram.me/how_to_use_tmafilesbot/2')
+            InlineKeyboardButton('⚚ How to use our bot ⚚', url='https://telegram.me/How_To_Download_Waldy')
         ], [
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmarequest')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Waldy_Writings'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/WaldyWritings_Bot')
             ],[
-            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/TmaSupportBot')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://T.me/Waldy_Premiumbot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
