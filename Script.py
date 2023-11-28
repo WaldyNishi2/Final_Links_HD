@@ -12,7 +12,11 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/Waldy_Writings')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁. You will get files for free with ads. To get files without ads buy our premium 20rs/month only</b>
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} ⚡️ I Am Waldy Writings Movie Search Bot... I can share Movies and Series 😁</b>
+
+<b>You Will Get Files For Free With Ads. To Get Files Without Ads Buy Our Premium 20rs/Month only... Slots Will Open From 27th To 1st Every Month</b>
+
+<b>Contact @Waldy_PremiumBot To Buy Premium</b>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
