@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 22217932 #int(environ.get('API_ID', '9301845'))
 API_HASH = 'd722db74da63a9e46ba2dcba49c69a4c'#environ.get('API_HASH', '563e9fd30b529442b705c7230f766b83')
-BOT_TOKEN = '5872790611:AAEli03VCSClXIdeSxYRYJvI0vFxgm6586g'#environ.get('BOT_TOKEN', "")
+BOT_TOKEN = '6613085976:AAHtSaXlUxDhQnO6peXxQT1Fc3X_W4LkTvE'#environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,12 +32,12 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://brucewayne:brucewayne@cluster0.msoafcl.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bruce1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filess')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://check:check@cluster0.vfrzuzj.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "check")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'check')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001878333867'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001982148559'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'waldywritings_Bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
